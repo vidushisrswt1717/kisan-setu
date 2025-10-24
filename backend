@@ -46,3 +46,6 @@ app.get("/match", (req, res) => {
 });
 
 app.listen(5000, () => console.log("Server running on port 5000"));
+git rm filename.ext
+git commit -m "Remove filename.ext"
+git push
